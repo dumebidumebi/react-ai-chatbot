@@ -1,0 +1,121 @@
+body {
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(175, 235, 255);
+  color: white;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  width: 350px;
+  height: 450px;
+  background-color: rgb(5, 40, 52);
+  /* position: relative; */
+  /* margin: 50% 50%; */
+  /* margin-left: 50%; */
+  transform: translate(50%, 50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+
+
+}
+input:focus {
+  outline: none;
+}
+.input-box{
+  width:250px;
+  height: 50px;
+  border: 1px solid rgb(114, 126, 139);
+  border-radius: 20px;
+  background-color: rgb(5, 40, 52);
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: 0;
+  color: white;
+  padding-left: 20px;  
+}
+
+.submit{
+  height: 54px;
+  border: 1px solid rgb(114, 126, 139);
+  background-color: rgb(5, 40, 52);
+  border-left: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 0;
+}
+.sendIcon{
+  width: 20px;
+  display: block;
+}
+
+.messagebox{
+  height: 280px;
+  width: 300px;
+  align-self: center;
+  
+}
+
+.messageheader{
+
+  height: 80px;
+  width: 300px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0;
+}
+
+.logo{
+  width: 80px;
+  margin-top: 0;
+  margin-left: 0;
+}
+.header-text{
+margin-bottom: 0;
+}
+.headertext-container{
+margin-left: 70px;
+}
+h5{
+  margin-top: 0;
+  color: rgb(114, 126, 139);;
+}
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.bubble{
+  min-height: 20px;
+  min-width: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgb(69, 157, 186);
+  border-top-right-radius: 0px;
+  color: white;
+  padding: 10px;
+  text-align: right;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.messagebox{
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding-bottom: 10px;
+}
